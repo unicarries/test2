@@ -1,6 +1,7 @@
 name: Create VPS
 
 on:
+  workflow_dispatch:
   repository_dispatch:
     types: [create-vps]
 
